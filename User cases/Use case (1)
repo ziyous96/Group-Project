@@ -1,0 +1,47 @@
+Use Case # (1) Customer records
+GENERAL CHARACTERISTICS
+Author	Ziyou Shang
+Last Update:	2/19/2017
+Scope	[Restaurant automation]
+Level	[User Level]
+Status	[under review] 
+[conceptualization]
+Primary Actor	[Resturant staff, probably host or waiter.] 
+Secondary Actors	[customers]
+Stakeholders and Interests	[-	Restaurant staff, to check the remaining seats for customers and keep the reserved seats.
+-	 Resturant Manager, to check the customer flow rate in order to make any change to manage the restaurant.
+-	Customers, to check the number of people currently in the restaurant and estimate the time they might wait.]
+Preconditions	[The number of customers and researved seats can be counted easily and the customers may not go back to their seats after their pay for their bill at the reception desk.(they are supposed to leave)]
+Success Post Condition	[Customers will be easy to figure out how long they need to wait for the seats, and waitors can take customers to empty seats that are not reserved easily as well]
+Failed Post Condition	[It might be difficult for restaurant staff like waitors and cleaners to figure out the empty seats whether the customers have left or they were just leaving for a while(and would probably come back),
+which cause difficulties to manage seats for customers.]
+
+MAIN SUCCESS SCENARIO (or basic flow)
+Step	Action - description in words of each step in success scenario
+1	Set the system: Before opening, set a map or graph of the restaurant and mark the reserved seats as yellow color with initial of the customer, the empty seats as green color.
+2	When a new customer comes, manage the customer to one of the empty tables and mark it on the graph as red.
+3	When a customer pays for the bill and is about to leave, mention the cleaner to clean the table and mark the table on the graph as green again.
+4 When all the tables in the restaurant are full, start to distribute waiting numbers for new customers and show the earliest waiting number on the screen that can be seen by the customers.
+5 Record the customer flow for the whole day in order to let the manager make any changes to the restaurant.
+6 If there are new reserved table requests, select a empty (green) table for the customer and mark it on the graph as yellow and initial of the customer.
+
+
+EXTENSIONS or Alternate Flows
+Step	Branching Action
+a. 6 If the reserved request is cancelled, mark the reserved table of the customer as green again.
+b. 3 If the customer leaves without paying for the bill, mention the manager or security guard.
+
+
+
+SPECIAL REQUIREMENTS
+touchscreen for the graph of the tables of the restaurant
+big screen for the customer to see the earliest waiting number
+	
+
+TECHNOLOGY AND DATA VARIATIONS LIST
+machines like the touchscreen need to be checked, otherwise the whole system might break down.
+
+FREQUENCY OF OCCURRENCE: always.
+
+Other Issues:
+Probably none.
