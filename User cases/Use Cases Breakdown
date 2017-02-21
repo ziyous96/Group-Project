@@ -6,10 +6,11 @@ Use Cases:
 5- Deleting Menue Item -> Not done 
 6- Customer Records -> done 
 7- Dish Promotion -> Not done
-8- Placing Order -> Not done
-9- Edtiting Order -> Not done 
-10- Deleting Order -> Not done 
-11- Inventory Count Update -> done 
-12 - Inventory Item Adding -> done
-13 - New Dish Suggesstion -> Not done 
-14 - 
+8- Placing Order -> Not done (if this is for the fully dressed use cases-done)
+9- Adding items to order -> Not done (if this is for the fully dressed use cases-done) 
+10- Removing items from order -> (if this is for the fully dressed use cases-done)
+11- Deleting Order -> Not done  (if this is for the fully dressed use cases-done)
+12- Inventory Count Update -> done 
+13 - Inventory Item Adding -> done
+14 - New Dish Suggesstion -> Not done 
+15 - 
