@@ -1,0 +1,66 @@
+Use Case # 1 Hiring an employee 
+GENERAL CHARACTERISTICS
+Author	Abdulaziz Alayadi
+Last Update:	2/17/2017
+Scope	Auto Resturant 
+Level	User Level
+Status	[one of :  incomplete, under review, finalized, etc.] 
+[one of: conceptualization, analysis, etc.]
+Primary Actor	Resturant Manager, A person who has the authority to hire and fire employees. 
+Secondary Actors	New employee.
+Stakeholders and Interests	-	Resturant Owner, wants to keep track of the employees and payroll cost.
+-	 Resturant Manager, wants to hire an employee to do certain job.
+-	The employee, wants to be hired to do sertain job for a pay.
+Preconditions	Manager is idintified and authinticated. 
+Success Post Condition	A new employee record is created and saved, the payroll sheets are updated accordingly. 
+Failed Post Condition	No new employee records are created not deleted. The payroll sheets are not changed.
+
+MAIN SUCCESS SCENARIO (or basic flow)
+Step	Action - description in words of each step in success scenario
+1	Manager decides to hire a new employee.
+2	Manager starts a new employee application.
+3	Manager enters the new employee information; name, date of birth , address, phone number, position, salary, work times, start and end date. 
+4
+5
+6
+7	Manager submit the application. 
+System creates a new employee record with a unique id. 
+System updates payroll sheet with the new employee salary.
+System prints an id card wih the name, id, and barcode identifier of the empoyee. 
+
+EXTENSIONS or Alternate Flows
+Step	Branching Action
+a.
+
+
+
+
+
+
+1-4	At anytime, System fails:
+To support recovery, ensure all information can be recovred from any steps of the senario.
+1.	Manager restarts the system, logs in and requests a recovery to prior state. 
+2.	System reconstructs previouse state. 
+2.a System detects anomails preventing recovery:
+    1.System signals error to Manager, records the error and enter clean state.
+    2. Manager starts a new employee application.
+Manager cancels the application.  
+1.	The application information is destroyed. 
+2.	No new employee record is created nor the payroll sheets are changed. 
+	
+
+
+SPECIAL REQUIREMENTS
+Req Num	Requirement
+	
+
+TECHNOLOGY AND DATA VARIATIONS LIST
+Var Num	Variation
+1
+2	System must support card printing. 
+System must support reading cards. 
+
+FREQUENCY OF OCCURRENCE: Sometimes. 
+
+OTHER ISSUES
+Issue Num	Issue
