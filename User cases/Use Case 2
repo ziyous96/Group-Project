@@ -1,1 +1,63 @@
-Use case # 2
+Use Case # 2 Firing Employee 
+GENERAL CHARACTERISTICS
+Author	Abdulaziz Alayadi
+Last Update:	2/21/17
+Scope	Auto Resturant 
+Level	User Level
+Status	[one of :  incomplete, under review, finalized, etc.] 
+[one of: conceptualization, analysis, etc.]
+Primary Actor	Resturant Manager, A person who has the authority to fire employees. 
+Secondary Actors	New employee.
+Stakeholders and Interests	-	Resturant Owner, wants to keep track of the employees and payroll cost.
+-	 Resturant Manager, wants to end an employee’s contract.
+-	The employee beeing fired, wants to get last benefits. 
+Preconditions	Manager is idintified and authinticated. 
+Success Post Condition	The selected employee record is destroyed and deleted, the payroll sheets are updated accordingly. 
+Failed Post Condition	No new employee records are deleted nor created. The payroll sheets are not changed.
+
+MAIN SUCCESS SCENARIO (or basic flow)
+Step	Action - description in words of each step in success scenario
+1	Manager decides to fire an employee. 
+2	Manager views the employees record.
+3
+4	Manager chooses “fire employee” option.
+Manager confirms that this is intentional and not accedintal.
+5
+6
+7	Manager enters credintials to verify identity. 
+The record of the employee is marked as past employee. 
+The payroll is updated and calculates last benefits if there is.
+
+EXTENSIONS or Alternate Flows
+Step	Branching Action
+a
+
+4
+
+
+ 
+    5		At anytime, System fails:
+1.	Manager log in and redo the process.
+Manager cancell the action:
+1.	Nothing has changed in the system.
+	Manager fails to verify identity:
+1.	Manager asked to re-verify identity. 
+2.	Repeat step 1 for maximum of 3 times.
+3.	The system logs out automaticlay after the third failed attempt.
+
+SPECIAL REQUIREMENTS
+Req Num	Requirement
+n	
+
+TECHNOLOGY AND DATA VARIATIONS LIST
+Var Num	Variation
+1	System could have a card reader to verify Manager identity.
+
+FREQUENCY OF OCCURRENCE: Rare. 
+
+
+OTHER ISSUES
+Issue Num	Issue
+1	Should the system keep the information of ex-employees, if yes for how long?
+
+
