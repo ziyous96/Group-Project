@@ -1,46 +1,38 @@
 Use Case # (5) Editing menu item (for manager)
 GENERAL CHARACTERISTICS
 Author	Ziyou Shang
-Last Update:	2/21/2017
+Last Update:	2/22/2017
 Scope	[Restaurant automation]
 Level	[User Level]
 Status	[under review] 
 [conceptualization]
 Primary Actor	[manager] 
-Secondary Actor [chef]
-Stakeholders and Interests	[-	Manager
--	Chef, to .]
-Preconditions	[The customers may not go back to their seats after their pay for their bill at the reception desk.(they are supposed to leave)
-                 The waitors need to be able to use the touchscreen and the system]
-Success Post Condition	[Customers will be easy to figure out how long they need to wait for the seats, and waitors can take customers to empty seats that are not reserved easily as well]
-Failed Post Condition	[waitors may make mistakes when setting the tables in the restaurant, system might break down by error]
+Stakeholders and Interests	[-	Manager, to edit items to the menu for the customers]
+Preconditions	[The manager is able to use the system and the system is able to edit or change the items]
+Success Post Condition	[The items that the manager decides to change in the menu are changed successfully]
+Failed Post Condition	[Different items, which the manager do not want to change in the menu, are changed in the menu]
 
 MAIN SUCCESS SCENARIO (or basic flow)
 Step	Action - description in words of each step in success scenario
-1	Set the system: Before opening, set a map or graph of the restaurant and mark the reserved seats as yellow color with initial of the customer, the empty seats as green color.
-2	When a new customer comes, manage the customer to one of the empty tables and mark it on the graph as red.
-3	When a customer pays for the bill and is about to leave, mention the cleaner to clean the table and mark the table on the graph as green again.
-4       When all the tables in the restaurant are full, start to distribute waiting numbers for new customers and show the earliest waiting number on the screen that can be seen by the customers.
-
+1   Manager logs in the system
+2   Manager decides what to change in the menu
+3   Manager changed items or price of the items in the menu
+4   Manager logs out the system
 
 EXTENSIONS or Alternate Flows
 Step	Branching Action
-a. 1 If the reserved request is cancelled, mark the reserved table of the customer as green again.
-     If there are new reserved table requests, select a empty (green) table for the customer and mark it on the graph as yellow and initial of the customer.
-b. 3 If the customer leaves without paying for the bill, mention the manager or security guard.
+a. If anything goes wrong with the system, use ordinary ways to remake the menu for the customers (probably print it out).
 
 
 
 SPECIAL REQUIREMENTS
-touchscreen for the graph of the tables of the restaurant
-big screen for the customer to see the earliest waiting number
+Menu of all the items that the manager may change in the menu for customers
 	
 
 TECHNOLOGY AND DATA VARIATIONS LIST
-machines like the touchscreen need to be checked, otherwise the whole system might break down.
+machines or system to change those items the manager would like to change in the menu.
 
 FREQUENCY OF OCCURRENCE: always.
 
 Other Issues:
-It might be difficult for restaurant staff like waitors and cleaners to figure out the empty seats whether the customers have left or they were just leaving for a while(and would probably come back),
-which cause difficulties to manage seats for customers
+It probably takes time if the manager can only change the items in the menu one by one.
