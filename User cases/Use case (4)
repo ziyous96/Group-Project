@@ -9,7 +9,7 @@ Status	[under review]
 Primary Actor	[manager] 
 Stakeholders and Interests	[-	Manager, to add items to the menu for the customers]
 Preconditions	[The manager is able to use the system and the system is able to upload the items]
-Success Post Condition	[The items that the manager decides to add in the menu upload to the electical menu successfully]
+Success Post Condition	[The items that the manager decides to add in the menu are uploaded to the electical menu successfully]
 Failed Post Condition	[Different items, which the manager do not want to add to the menu, are uploaded to the menu]
 
 MAIN SUCCESS SCENARIO (or basic flow)
