@@ -1,9 +1,9 @@
 Use Cases:
 1- Hiring Employee -> done
 2- Firing Employee -> done
-3- Adding Menue Item -> done
-4- Editing Menue Item ->  done
-5- Deleting Menue Item ->  done 
+3- Adding Menu Item -> done
+4- Editing Menu Item ->  done
+5- Deleting Menu Item ->  done 
 6- Customer Records -> done 
 7- Dish Promotion ->  done
 8- Placing Order -> done 
@@ -15,6 +15,7 @@ Use Cases:
 14 - New Dish Suggesstion -> Done 
 15 - Request More Supplies -> Done
 16 - Table Record -> Done
+
 
 Actors: 
 1- Manager 
