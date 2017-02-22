@@ -2,15 +2,24 @@ Use Cases:
 1- Hiring Employee -> done
 2- Firing Employee -> done
 3- Adding Menue Item -> done
-4- Editing Menue Item -> done
-5- Deleting Menue Item -> done 
+4- Editing Menue Item ->  done
+5- Deleting Menue Item ->  done 
 6- Customer Records -> done 
-7- Dish Promotion -> done
-8- Placing Order -> Not done (if this is for the fully dressed use cases-done)
-9- Adding items to order -> Not done (if this is for the fully dressed use cases-done) 
-10- Removing items from order -> (if this is for the fully dressed use cases-done)
-11- Deleting Order -> Not done  (if this is for the fully dressed use cases-done)
+7- Dish Promotion ->  done
+8- Placing Order -> done 
+9- Adding items to order -> done 
+10- Removing items from order -> done
+11- Deleting Order -> done
 12- Inventory Item Update -> done 
 13 - Inventory Item Adding -> done
 14 - New Dish Suggesstion -> Done 
 15 - 
+
+Actors: 
+1- Manager 
+2- Chef
+3- Waiter 
+4- Staff 
+5- Supplier 
+6- Customer 
+
