@@ -8,7 +8,7 @@ Status	[under review]
 [conceptualization]
 Primary Actor	[Resturant staff, probably host or waiter.] 
 Secondary Actor [Customers]
-Stakeholders and Interests	[-	Restaurant staff, to check the remaining tables for customers and keep the reserved tables.
+Stakeholders and Interests	[-	Waitors, to check the remaining tables for customers and keep the reserved tables.
 -	Customers, to check the number of people currently in the restaurant and estimate the time they might wait for the tables.]
 Preconditions	[The customers may not go back to their seats after their pay for their bill at the reception desk.(they are supposed to leave)
                  The waitors need to be able to use the touchscreen and the system]
