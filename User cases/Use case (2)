@@ -6,8 +6,8 @@ Scope	[Restaurant automation]
 Level	[User Level]
 Status	[under review] 
 [conceptualization]
-Primary Actor	[chef] 
-Secondary Actors	[manager]
+Primary Actor	[customer] 
+Secondary Actors	[manager, chef]
 Stakeholders and Interests	[-	Waitor, to recommand the special dishes today or any chef special to customers.
 -	 Chef and manager, to offer and decide the special dishes for the customers.
 -	Customers, to get known about and choose the special or recommanded dishes they would like to order.]
@@ -18,9 +18,9 @@ Failed Post Condition	[The special dishes may be not popular while other popular
 MAIN SUCCESS SCENARIO (or basic flow)
 Step	Action - description in words of each step in success scenario
 1	Chef and manager decide the special dishes for today or this week
-2 The special dishes are uploaded to the system and can be easily seen on the menu touchpad for customers
-3 Customers choose the dishes they would like to order
-4 The number of special dishes ordered will be recorded for chef or manager to make further changes
+2 	The special dishes are uploaded to the system and can be easily seen on the menu touchpad for customers
+3 	Customers choose the dishes they would like to order
+4	The number of special dishes ordered will be recorded for chef or manager to make further changes
 
 
 EXTENSIONS or Alternate Flows
