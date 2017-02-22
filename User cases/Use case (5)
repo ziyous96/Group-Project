@@ -16,7 +16,7 @@ MAIN SUCCESS SCENARIO (or basic flow)
 Step	Action - description in words of each step in success scenario
 1   Manager logs in the system
 2   Manager decides what to change in the menu
-3   Manager changed items or price of the items in the menu
+3   Manager changes items or price of the items in the menu
 4   Manager logs out the system
 
 EXTENSIONS or Alternate Flows
