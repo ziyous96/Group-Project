@@ -1,0 +1,47 @@
+Use Case # (3) Customer records (for manager)
+GENERAL CHARACTERISTICS
+Author	Ziyou Shang
+Last Update:	2/19/2017
+Scope	[Restaurant automation]
+Level	[User Level]
+Status	[under review] 
+[conceptualization]
+Primary Actor	[waitor] 
+Secondary Actors	[manager]
+Stakeholders and Interests	[-	waitor, to record the customer flow of the restaurant for a day or a month]
+-	 Resturant Manager, to check the customer flow rate in order to make any change to manage the restaurant.]
+Preconditions	[Waitors are able to record the number of customers.]
+Success Post Condition	[number of customers is saved. number of customers at different time of the day is saved]
+Failed Post Condition	[System broken. Error recording. Mistakes made by waitors]
+
+MAIN SUCCESS SCENARIO (or basic flow)
+Step	Action - description in words of each step in success scenario
+1 Customers enter the restaurant
+2 Customers are led to their table and the number of customers are recorded
+3 The system save the record of the number of custormers when breakfast shift ends
+4 Record and calculate the number of customers during the whole day and seperately in different shifts
+5 The manager checks out the records and decide to make further changes for the restaurant
+
+
+
+EXTENSIONS or Alternate Flows
+Step	Branching Action
+a. 2 If the customers do not make any orders, they should not be recorded
+b. 3 customers during the time between breakfast shift and lunch shift or afternoon should not be counted as number of customers in any shift,
+but they should still be counted as customers in the whole day.
+if anything goes wrong that may affect the basic function of the restaurant, reset the system and delete the records for the day.
+
+
+
+SPECIAL REQUIREMENTS
+None
+	
+
+TECHNOLOGY AND DATA VARIATIONS LIST
+machine to record and calculate the number of customers
+
+
+FREQUENCY OF OCCURRENCE: always.
+
+Other Issues:
+Should the consumption of the customers be recorded as well?
