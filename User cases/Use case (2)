@@ -6,8 +6,8 @@ Scope	[Restaurant automation]
 Level	[User Level]
 Status	[under review] 
 [conceptualization]
-Primary Actor	[chef] 
-Secondary Actors	[manager]
+Primary Actor	[waitor] 
+Secondary Actors	[manager, chef]
 Stakeholders and Interests	[-	Waitor, to recommand the special dishes today or any chef special to customers.
 -	 Chef and manager, to offer and decide the special dishes for the customers.
 -	Customers, to get known about and choose the special or recommanded dishes they would like to order.]
