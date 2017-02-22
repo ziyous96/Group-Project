@@ -19,15 +19,16 @@ MAIN SUCCESS SCENARIO (or basic flow)
 Step	Action - description in words of each step in success scenario
 1	Chef and manager decide the special dishes for today or this week
 2 	The special dishes are uploaded to the system and can be easily seen on the menu touchpad for customers
-3 	Customers choose the dishes they would like to order
-4	The number of special dishes ordered will be recorded for chef or manager to make further changes
+3  	Waitor gives the electrical menu with the touchpad to the customers
+4 	Customers choose the dishes they would like to order
+5	The number of special dishes ordered will be recorded for chef or manager to make further changes
 
 
 EXTENSIONS or Alternate Flows
 Step	Branching Action
 a. 1. The chef will make the suggestions and manager will make the decisions
 b. 2. If the customers are not interested in the special dishes, other dishes can be shown on the touchpad by clicking a link or a sider-bar. 
-c. 4. The number of special dishes ordered may be recorded seperately by time (breakfast, lunch and dinner) or maybe different categories
+c. 5. The number of special dishes ordered may be recorded seperately by time (breakfast, lunch and dinner) or maybe different categories
 
 
 SPECIAL REQUIREMENTS
