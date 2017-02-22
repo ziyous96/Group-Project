@@ -1,0 +1,44 @@
+Use Case # (2) Dish Suggestion (for customers)
+GENERAL CHARACTERISTICS
+Author	Ziyou Shang
+Last Update:	2/20/2017
+Scope	[Restaurant automation]
+Level	[User Level]
+Status	[under review] 
+[conceptualization]
+Primary Actor	[chef] 
+Secondary Actors	[manager]
+Stakeholders and Interests	[-	Waitor, to recommand the special dishes today or any chef special to customers.
+-	 Chef and manager, to offer and decide the special dishes for the customers.
+-	Customers, to get known about and choose the special or recommanded dishes they would like to order.]
+Preconditions	[dishes can be uploaded sucessfully to the menu touchpad which restaurant staff are able to use.]
+Success Post Condition	[The special dishes can be uploaded to the menu touchpad and can be easily seen by the customers. The touchpads are working well.]
+Failed Post Condition	[The special dishes may be not popular while other popular dishes are less obvious to be seen than the special dishes. Touchpads broken]
+
+MAIN SUCCESS SCENARIO (or basic flow)
+Step	Action - description in words of each step in success scenario
+1	Chef and manager decide the special dishes for today or this week
+2 The special dishes are uploaded to the system and can be easily seen on the menu touchpad for customers
+3 Customers choose the dishes they would like to order
+4 The number of special dishes ordered will be recorded for chef or manager to make further changes
+
+
+EXTENSIONS or Alternate Flows
+Step	Branching Action
+a. 1. The chef will make the suggestions and manager will make the decisions
+b. 2. If the customers are not interested in the special dishes, other dishes can be shown on the touchpad by clicking a link or a sider-bar. 
+c. 4. The number of special dishes ordered may be recorded seperately by time (breakfast, lunch and dinner) or maybe different categories
+
+
+SPECIAL REQUIREMENTS
+touchpad for the customers to make orders
+design of the electrical menu
+	
+
+TECHNOLOGY AND DATA VARIATIONS LIST
+machines like the touchpad need to be checked, otherwise it won't work.
+
+FREQUENCY OF OCCURRENCE: always.
+
+Other Issues:
+The chef and manager may have a disagreement on the special dishes.
