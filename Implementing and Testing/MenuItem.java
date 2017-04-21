@@ -1,4 +1,8 @@
-
+/**
+ * the items in the menu
+ *
+ *
+ */
 public class MenuItem {
 	
 	private String name;
@@ -7,6 +11,13 @@ public class MenuItem {
 	private int calories;
 
 
+	/**
+	 * constructor
+	 * @param name the name of the item
+	 * @param description the description of the item (if necessary)
+	 * @param price the price of the item
+	 * @param calories the calories of the item
+	 */
 	public MenuItem(String name, String description, double price, int calories) {
 		this.setName(name);
 		this.setDescription(description);
@@ -71,6 +82,9 @@ public class MenuItem {
 		this.calories = calories;
 	}
 	
+	/**
+	 * print the info of the item
+	 */
 	public void print() {		
 		System.out.println(name + "		$" + price);
 		System.out.println(description);
